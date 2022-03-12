@@ -1,6 +1,7 @@
  ![](/images/openstack.png)
 # Let's play with OpenStack
 This repository contains notes on working with Openstack Cloud.
+Why this repo ? I like learning
 
 #### Table of contents
 | Number | Name
