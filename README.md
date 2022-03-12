@@ -4,7 +4,7 @@ This repository contains notes on working with Openstack Cloud.
 #### Table of contents
 | Number | Name
 |:-------|-----|
-| 001 | Two Instances with a Load Balancer |
+| [001](001.md) | Two Instances with a Load Balancer |
 | 002 | Create a private network with access through a Router Gateway #TODO|
 | 003 | Multiple Instances on private network with a Load Balancer #TODO | 
 | 004 | Create a fully Load Balancer #TODO| 
