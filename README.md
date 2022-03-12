@@ -1,4 +1,4 @@
-# :o2: OpenStack Playbooks - Let's play with OpenStack
+# ![](/images/openstack.png) OpenStack Playbooks - Let's play with OpenStack
 This repository contains notes on working with Openstack Cloud.
 
 #### Table of contents
