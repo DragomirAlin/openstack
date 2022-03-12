@@ -1,4 +1,4 @@
-# :o2: OpenStack Playbooks - Deploy Common Architectures with OpenStack
+# :o2: OpenStack Playbooks - Let's play with OpenStack
 This repository contains notes on working with Openstack Cloud.
 
 #### Table of contents
