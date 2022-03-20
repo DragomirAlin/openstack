@@ -7,7 +7,7 @@ Why this repo ? I like learning
 | Number | Name
 |:-------|-----|
 | [001](001.md) | Two Instances with a Load Balancer |
-| 002 | Create a private network with access through a Router Gateway #TODO|
+| [002](002.md) | Create a private network with access through a Router Gateway #TODO|
 | 003 | Multiple Instances on private network with a Load Balancer #TODO | 
 | 004 | Create a fully Load Balancer #TODO| 
 | 005 | Get internet access for an instance from a private network #TODO
