@@ -1,0 +1,41 @@
+{
+    "loadbalancer": {
+        "description": "load balancer",
+        "project_id": "60ed74df25964615886b64d33dbaee7f",
+        "flavor_id": "1384881f-0322-4b6d-82f9-d39610d1baef",
+        "listeners": [
+            {
+                "name": "http_listener",
+                "protocol": "HTTP",
+                "protocol_port": 80
+            }
+            
+        ],
+        "pools": [
+            {
+                "name": "http_pool",
+                "protocol": "HTTP",
+                "lb_algorithm": "ROUND_ROBIN",
+                "healthmonitor": {
+                    "type": "HTTP",
+                    "delay": "3",
+                    "max_retries": 2,
+                    "timeout": 1
+                },
+                "members": [
+                    {
+                        "address": "185.104.48.57",
+                        "protocol_port": 80
+                    },
+                    {
+                        "address": "185.104.48.240",
+                        "protocol_port": 80
+                    }
+                ]
+            }
+        ],
+        "vip_network_id": "0a92fd7a-9d60-4dcf-ba3f-cdc7ba86e551",
+        "name": "load_balancer_test-1"
+
+    }
+}
